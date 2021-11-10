@@ -10,12 +10,15 @@ public class Baitap1 {
         this.numBer3 = numBer3;
     }
     public double delta(){
+
         return (this.numBer2 * this.numBer2) - 4 * this.numBer1 * this.numBer3;
     }
     public double nghiem1(){
+
         return (-this.numBer2 + (Math.pow(delta(), 0.5)) / 2 * numBer1 );
     }
     public double nghiem2(){
+
         return (-this.numBer2 - (Math.pow(delta(), 0.5)) / 2 * numBer1);
     }
 }
